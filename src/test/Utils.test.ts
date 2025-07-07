@@ -1,7 +1,7 @@
 import { toUpperCase } from '../app/Utils';
 
 describe('Utils test suit', () => {
-  test('should return uppercase', () => {
+  it('should return uppercase of valid string', () => {
     //arrange:
     const sut = toUpperCase; // sut is system under test.
     const expected = 'ABC';
